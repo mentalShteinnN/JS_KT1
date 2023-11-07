@@ -1,0 +1,31 @@
+.container {
+  margin: 0 50px 100px 50px;
+  display: flex;
+  align-items: center;
+}
+
+.nav_link {
+  list-style: none;
+  font-size: 14px;
+}
+
+.nav_link:hover {
+  border-bottom: 1px solid black;
+}
+
+.links_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.btn {
+  padding: 15px 35px;
+  background-color: #F9B640;
+  color: white;
+  border-radius: 40px;
+  height: fit-content;
+  border: none;
+  font-style: italic;
+}
